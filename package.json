@@ -1,0 +1,18 @@
+{
+  "name": "images_slider",
+  "version": "1.0.0",
+  "description": "Images Slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Slider",
+    "for",
+    "images",
+    "responsive",
+    "js"
+  ],
+  "author": "Irhad Kulanic",
+  "license": "ISC"
+}
