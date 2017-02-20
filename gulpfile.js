@@ -6,6 +6,7 @@ const jshint = require('gulp-jshint');
 var handlebars = require('handlebars');
 var gulpHandlebars = require('gulp-compile-handlebars')(handlebars); //default to require('handlebars') if not provided
 var rename = require('gulp-rename');
+const autoprefixer = require('gulp-autoprefixer');
 
 //TODO: nunjucks
  gulp.task('default',function () {
@@ -18,6 +19,10 @@ gulp.task('build_styles', function () {
         .src('app/sass/main.scss')
         .pipe(sassGlob())
         .pipe(sass())
+        .pipe(autoprefixer({
+            browsers: ['last 4 versions'],
+            cascade: false
+        }))
         .pipe(gulp.dest('dist/styles'));
 });
 gulp.task('build_js', function () {

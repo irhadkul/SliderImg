@@ -2,4 +2,20 @@
   color: antiquewhite;
   background-color: azure;
   display: inline-block;
-  font-size: 13px; }
+  font-size: 13px;
+  box-shadow: aliceblue;
+  -webkit-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg); }
+
+@-webkit-keyframes mymove {
+  from {
+    top: 0px; }
+  to {
+    top: 200px; } }
+
+@keyframes mymove {
+  from {
+    top: 0px; }
+  to {
+    top: 200px; } }
