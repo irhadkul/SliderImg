@@ -16,9 +16,20 @@
   "author": "Irhad Kulanic",
   "license": "ISC",
   "devDependencies": {
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-handlebars-html": "0.0.2",
+    "gulp-jshint": "^2.0.4",
+    "gulp-jshint-file-reporter": "0.0.2",
     "gulp-minify": "0.0.15",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sass-glob": "^1.0.8",
-    "gulp-watch": "^4.3.11"
+    "gulp-watch": "^4.3.11",
+    "gulp-wrap": "^0.13.0",
+    "handlebars": "^4.0.6",
+    "jshint": "^2.9.4"
   }
 }

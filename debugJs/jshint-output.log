@@ -1,0 +1,4 @@
+
+2 lint errors found in app\js\main.js
+  [4,1](W097) Use the function form of "use strict".
+  [9,6](W117) 'dsad' is not defined.
