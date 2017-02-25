@@ -31,6 +31,11 @@
     "gulp-watch": "^4.3.11",
     "gulp-wrap": "^0.13.0",
     "handlebars": "^4.0.6",
-    "jshint": "^2.9.4"
+    "jasmine-core": "^2.5.2",
+    "jshint": "^2.9.4",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.0"
   }
 }
