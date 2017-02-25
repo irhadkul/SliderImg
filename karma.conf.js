@@ -7,19 +7,15 @@ module.exports = function(config) {
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',
 
-
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['jquery-2.1.1','jasmine-jquery', 'jasmine'],
 
 
     // list of files / patterns to load in the browser
-    files: [
-      '"app/js/**/*.js"',
-      '"./app/js/**/*.js"',
-      '"**/appjs/**/*.js"',
-      '"**/app/js/**/*.js"',
-      'app/js/*.js'
+    files: ['app/js/tests/fixturesConf.js',
+      'app/js/tests/*.js',
+        { pattern: 'app/js/tests/**/*.html', included: false, served: true }
     ],
 
 
@@ -59,7 +55,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox'],
+    browsers: ['PhantomJS'],
 
 
     // Continuous Integration mode
